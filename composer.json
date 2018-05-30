@@ -1,34 +1,35 @@
 {
-  "name": "yuncms/article",
-  "description": "The article module for yuncms.",
-  "keywords": [
-    "yuncms",
-    "article"
-  ],
-  "type": "yii2-extension",
-  "license": "MIT",
-  "require": {
-    "yuncms/framework": "~2.0.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "yuncms\\article\\": "src"
-    }
-  },
-  "extra": {
-    "yuncms": "mainfest.php",
-    "branch-alias": {
-      "dev-master": "2.0-dev"
-    }
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://asset-packagist.org"
+    "name": "yuncms/article",
+    "description": "The article module for yuncms.",
+    "keywords": [
+        "yuncms",
+        "article"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "require": {
+        "yuncms/framework": "~2.0.0",
+        "yuncms/tag": "~2.0.0"
     },
-    {
-      "type": "composer",
-      "url": "https://packagist.phpcomposer.com"
-    }
-  ]
+    "autoload": {
+        "psr-4": {
+            "yuncms\\article\\": "src"
+        }
+    },
+    "extra": {
+        "yuncms": "mainfest.php",
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    ]
 }
