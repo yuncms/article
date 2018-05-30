@@ -7,7 +7,7 @@
 namespace yuncms\article\models;
 
 use yii\db\ActiveQuery;
-use yuncms\tag\behaviors\TagQueryBehavior;
+use creocoder\taggable\TaggableQueryBehavior;
 
 /**
  * Class ArticleQuery
@@ -18,7 +18,7 @@ class ArticleQuery extends ActiveQuery
     public function behaviors()
     {
         return [
-            TagQueryBehavior::className(),
+            TaggableQueryBehavior::class,
         ];
     }
 
